@@ -5,59 +5,29 @@
   <meta charset="utf-8">  
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
-  
-  <title>My First html CV </title>  
+        <link rel="stylesheet" href="style.css">     
+    <title>My First html CV </title>  
+    <!-- In head we can add title for the file and link to css file-->
 </head>
-<style>
 
-body {
-    background-color: rgb(138, 129, 133);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.bottom-left {
-  position: absolute;
-  bottom: 1px;
-  left: 16px;
-}
-.top-right {
-  background-color: rgb(233, 199, 212);
-  position: absolute;
-  top: 60px;
-  left: 250px;
-  display: inline-block;
-}
-.right {
-  
-  position: absolute;
-  top:400px;
-  left:120px;
-  transform: translate(-50%, -50%);
-}
-.top-left {
-  
-  position: absolute;
-  top: 60px;
-  left: 500px;
-}
-
-</style>
 
 <body>
   <br>
     <div class="right">
+      <!-- alla info under right class would appear in the right side of the webbsidan-->
       <div class="image">
         <img src="myphoto.jpg"
         alt="myphoto"
         style="width:120px;height:200px">
+        <!-- this is my images and its style-->
         <div class="personlig info">
           <h1>Födelsdatum</h1>
           <h3>1979-02-21</h3>
-          <h1>Nationalitet</h1>
-          <h3>Blandad<br>
-            Syrian , Svenska
+          <h1>Adress</h1>
+          <h3>Oxhagsgatan 64<br>
+            56150 Jönköping
           </h3>
+          <!-- personal information med två olika text storlek h1&h3-->
           <h1>Kompetens</h1>
           <ul>
             <li>programering maskine</li>
@@ -72,12 +42,14 @@ body {
           <li>Engelska</li>
           
       </ul>
+      <!-- två listor -->
         </div>
       </div>
       
     </div>
     
     <div class="top-right">
+      <!-- all information in this side will shown upp in the middle-->
       <h1> &#160;&nbsp; Ammar Obeid</h1>
     
       <h2> &#160;&nbsp; &#160;&nbsp;Job Title</h2>
@@ -98,6 +70,7 @@ body {
           <br>&#160;&nbsp;&#160;&nbsp; lika med roter och flex, de är namnet på engelska. </p>
         <h3>&#160;&nbsp;&#160;&nbsp; Utbildning</h3>
         <table>
+          <!-- this is a small table to visa my old and my new intyg-->
           <tr>
               <th>&#160;&nbsp;Institute  </th>
               <th>&#160;&nbsp;&#160;&nbsp;Graduing år  </th>
@@ -129,6 +102,7 @@ body {
 
 
     <div class="top-left">
+      <!-- this top left for my logo and my porfil-->
       <div class="image">
         <img src="Aletter2.jpg"
         alt="ASymbol"
@@ -145,3 +119,4 @@ body {
   
 
 </body>
+</html>
