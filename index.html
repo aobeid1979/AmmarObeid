@@ -3,120 +3,73 @@
 <html lang="sv">
 <head>
   <meta charset="utf-8">  
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">     
-    <title>My First html CV </title>  
-    <!-- In head we can add title for the file and link to css file-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">     
+  <title>My First html CV </title>  
 </head>
 
-
 <body>
-  <br>
-    <div class="right">
-      <!-- alla info under right class would appear in the right side of the webbsidan-->
-      <div class="image">
-        <img src="myphoto.jpg"
-        alt="myphoto"
-        style="width:120px;height:200px">
-        <!-- this is my images and its style-->
-        <div class="personlig info">
-          <h1>Födelsdatum</h1>
-          <h3>1979-02-21</h3>
-          <h1>Adress</h1>
-          <h3>Oxhagsgatan 64<br>
-            56150 Jönköping
-          </h3>
-          <!-- personal information med två olika text storlek h1&h3-->
-          <h1>Kompetens</h1>
-          <ul>
-            <li>programering maskine</li>
-            <li>läsa ritning</li>
-            <li>noggran med mattnning</li>
-            
-        </ul>
-        <h1>Språk</h1>
-        <ul>
-          <li>Arabiska</li>
-          <li>Svenska</li>
-          <li>Engelska</li>
-          
+  <header>
+    <div class="image">
+      <img src="myphoto.jpg" alt="myphoto" style="width:120px;height:200px">
+      <h1>Ammar Obeid</h1>
+      <h2>Web Developer | CNC Operator</h2>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Personlig Information</h2>
+      <p>Email: amfo250@gmail.com</p>
+      <p>Phone: +46720075598</p>
+    </section>
+
+    <section>
+      <h2>Utbildning</h2>
+      <p>Web utvecklare, Jönköping Yrkehögskolan, aug. 2023 - Nuvarande</p>
+    </section>
+
+    <section>
+      <h2>Kompetens</h2>
+      <ul>
+        <li>Coding - Nybörjare</li>
+        <li>Debugging - Nybörjare</li>
+        <li>Problem Solving - Nybörjare</li>
+        <li>Database - Nybörjare</li>
       </ul>
-      <!-- två listor -->
-        </div>
-      </div>
-      
-    </div>
-    
-    <div class="top-right">
-      <!-- all information in this side will shown upp in the middle-->
-      <h1> &#160;&nbsp; Ammar Obeid</h1>
-    
-      <h2> &#160;&nbsp; &#160;&nbsp;Job Title</h2>
-      <h4>&nbsp; &#160;&nbsp;&#160;&nbsp;&#160;&nbsp;Webutveklare i framtiden</h4>
-      <h2>&nbsp; &#160;&nbsp;&#160;&nbsp;Contact</h2>
-                <p><b>&nbsp; &nbsp; Email id:</b>amfo250@gmail.com</p>
-                <p><b>&nbsp; &nbsp; Mobile no :</b>0720075598</p>
-      <h3> &nbsp; &nbsp; &#160;&nbsp; Bra att veta om mig:</h3>
-      <p><b>&nbsp; &nbsp; &#160;&nbsp;Engagemang</b> för att utföra uppgifter i tid.<br> 
-        &#160;&nbsp;&#160;&nbsp;&#160;&nbsp;Noggrannhet 
-        och snabbhet är 
-        också bland de viktigaste personliga<br> &#160;&nbsp;&#160;&nbsp;egenskaperna.</p>
-        
-        <h3> &#160;&nbsp;&#160;&nbsp;&#160;&nbsp;Arbetslivserforenhet:</h3>
-        <p>&#160;&nbsp;&#160;&nbsp; I nutiden är jag 45 år gammal, 
-          <br>&#160;&nbsp;&#160;&nbsp; det betyder att jag har stora erforenhet i båda <b>livet och arbetslivet</b>.
-          <br> &#160;&nbsp;&#160;&nbsp; När jag var 25 år jobbade jag på ett <b>Ink </b>fabrik, där tillverkade vi olika sortera av ink, 
-          <br>&#160;&nbsp;&#160;&nbsp; lika med roter och flex, de är namnet på engelska. </p>
-        <h3>&#160;&nbsp;&#160;&nbsp; Utbildning</h3>
-        <table>
-          <!-- this is a small table to visa my old and my new intyg-->
-          <tr>
-              <th>&#160;&nbsp;Institute  </th>
-              <th>&#160;&nbsp;&#160;&nbsp;Graduing år  </th>
-              
-          </tr>
-          <tr>
-              <td>&#160;&nbsp;&#160;&nbsp;Kemical Institute</td>
-              <td>&#160;&nbsp;&#160;&nbsp;2000</td>
-              
-          </tr>
-          <tr>
-              <td>&#160;&nbsp;&#160;&nbsp;CNC Tecknik</td>
-              <td>&#160;&nbsp;&#160;&nbsp;2021</td>
-              
-          </tr>
-          <tr>
-              <td>&#160;&nbsp;&#160;&nbsp;Webbutvecklare</td>
-              <td>&#160;&nbsp;&#160;&nbsp;2025</td>
-          </tr>
-      </table>
-      <h3>&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;Mer information i länker</h3>
-      
-      <a  href="Starting page.html">&#160;&nbsp;&#160;&nbsp;&#160;&nbsp; to Starting site</a><br>
-      <br>
-      <br>
+    </section>
 
+    <section>
+      <h2>Språk</h2>
+      <ul>
+        <li>Arabiska - Modersmålstalare</li>
+        <li>Svenska - Mycket bra</li>
+        <li>Engelska - Mycket bra</li>
+      </ul>
+    </section>
 
-    </div>
+    <section>
+      <h2>Sammanfattning</h2>
+      <p>Tekniskt kunnig och ambitiös med en stark grund i principerna för era programmeringsspråk, inklusive HTML, CSS, JavaScript, C#, REST API och .NET Core. Jag är passionerad för att använda min tekniska expertis för att lösa komplexa problem och bidra till framgångsrika projekt.</p>
+    </section>
 
+    <section>
+      <h2>Arbetslivserfarenhet</h2>
+      <h3>CNC Operator, Veldi Kompetence</h3>
+      <p>juli 2021 - augusti 2023</p>
+      <ul>
+        <li>Arbetade metodiskt och fokuserat för att säkerställa lugn och stabilitet vid CNC-maskinhantering.</li>
+        <li>Prioriterade kvalitet genom noggrannhet och uppmärksamhet på detaljer vid varje steg av CNC-processen.</li>
+        <li>Fokuserade på noggrannhet och precision för att säkerställa högkvalitativa resultat vid CNC-operativa uppgifter.</li>
+      </ul>
+    </section>
+  </main>
 
-    <div class="top-left">
-      <!-- this top left for my logo and my porfil-->
-      <div class="image">
-        <img src="Aletter2.jpg"
-        alt="ASymbol"
-        style="width:70px;height:120px">
-      <p><b>profil</b></p>
-      <p> Ammar heter jag,<br> När jag skrev denna CV <br>
-        jobbade jag på ett stort fabric<br>
-      fabriken heter Uppåkre.</p>
-
-    </div>
-    </div>
-
-    
-  
-
+  <aside>
+    <section>
+      <h2>Referenser</h2>
+      <p>Finns tillgängliga på begäran</p>
+    </section>
+  </aside>
 </body>
 </html>
